@@ -24,6 +24,24 @@ class PinsController < ApplicationController
 		end	
 	end
 
+	def edit
+		
+	end
+
+	def update
+		if @pin.update(pin_params)
+			flash[:sucess]= 'Pin was successfully updated'
+			redirect_to @pin
+		else
+			render 'edit'
+		end	
+
+	end
+
+	def destroy
+		
+	end
+
 
 	private
 
