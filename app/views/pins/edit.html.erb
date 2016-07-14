@@ -1,8 +1,26 @@
+
 <div class="col-md-6 col-md-offset-3">
-	<h1>Edit Pin</h1>
-	<%= image_tag @pin.image.url(:medium) %>
-	<%= render 'form'  %>
-	<%= link_to 'Cancel', pin_path  %>	
+	<div class="row">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h1>Edit Pin</h1>	
+				
+			</div>
+
+			<div class="panel-body">
+				<strong class="center">
+					Current image
+					<br>
+					<%= image_tag @pin.image.url(:medium) %>
+				</strong>
+				
+				<%= render 'form'  %>				
+			</div>		
+
+		</div>
+
+	</div>
 
 </div>
+
 
