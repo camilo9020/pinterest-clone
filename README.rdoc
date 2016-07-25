@@ -11,7 +11,8 @@ This App is a simple pinterest clone with the basic functions:
 
 * Vote pins (if authenticated)
 
-* Deploy on heroku instructions
+* It was deployed in heroku: https://pinterest-clone-jch.herokuapp.com/
+
 
 
 
